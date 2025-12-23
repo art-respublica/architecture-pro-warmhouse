@@ -7,7 +7,7 @@ WORKDIR /app
 
 # Copy the application JAR file into the container
 # Make sure to replace 'target/your-application.jar' with the correct path to your JAR
-COPY /build/libs/telemetry-service-0.0.1.jar app.jar
+COPY telemetry-service-0.0.1.jar app.jar
 
 # Expose the port your application runs on (e.g., 8080 for Spring Boot)
 EXPOSE 8082

@@ -1,0 +1,5 @@
+rootProject.name = 'smart-home-new'
+
+include 'client-api'
+include 'device-service'
+include 'telemetry-service'
